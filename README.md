@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CoreView is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+CoreView provides Microsoft 365 cyber resilience solutions for enterprises, offering tools for policy enforcement, configuration resilience, privilege management, and tenant segmentation. Their platform helps organizations secure, manage, and automate Microsoft 365 environments, delivering risk insights, backup, and compliance across thousands of settings.
+
+**Areas:** Microsoft 365 · Tenant Resilience · Configuration Management · Identity Security · License Optimization · SharePoint Control · Enterprise Saas
+
+## CoreView on APIs.io
+
+Everything profiled for CoreView is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coreview/](https://apis.io/providers/coreview/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [CoreView Connect API](https://apis.io/apis/coreview/coreview-connect-api/) — The Connect API from CoreView — 1 operation(s) for connect.
+- [CoreView Public API](https://apis.io/apis/coreview/coreview-public-api/) — The Public API from CoreView — 1 operation(s) for public.
+- [CoreView Teams API](https://apis.io/apis/coreview/coreview-teams-api/) — The Teams API from CoreView — 1 operation(s) for teams.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostConnectTokenRequest](https://apis.io/schemas/coreview/coreview-post-connect-token-request/)
+- [PostConnectTokenResponse](https://apis.io/schemas/coreview/coreview-post-connect-token-response/)
+- [PostTeamsTeamidChannelsChannelidMessagesRequest](https://apis.io/schemas/coreview/coreview-post-teams-teamid-channels-channelid-messages-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Coreview Context](https://apis.io/jsonld/coreview/coreview-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CoreView API Rules](https://apis.io/rules/coreview/coreview-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coreview Domain Security](https://apis.io/security/coreview/coreview-domain-security/)
+- [Coreview Trust Center](https://apis.io/security/coreview/coreview-trust-center/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Coreview Rate Limits](https://apis.io/rate-limits/coreview/coreview-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.coreview.com/)
+- [Documentation](https://help.coreview.com/)
+- [Getting started](https://help.coreview.com/en_US/onboarding-process/onboarding-registration)
+- [Pricing](https://www.coreview.com/pricing)
+- [Changelog](https://help.coreview.com/en_US/release-notes)
+- [Blog](https://www.coreview.com/blog)
+- [Security](https://www.coreview.com/security)
+- [Compliance](https://www.coreview.com/security)
+- [Terms of service](https://www.coreview.com/terms-conditions)
+- [Privacy policy](https://www.coreview.com/privacy-policy)
+- [Status](https://status.coreview.com/)
+
+## API Evangelist rating
+
+**Kin Score 37.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 20.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 63.2 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 47.4 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coreview/](https://apis.io/providers/coreview/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CoreView: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coreview/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
